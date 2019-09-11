@@ -181,7 +181,13 @@ header {
 }
 
 .ui-autocomplete {
-  width: 275px !important;
+  width: 500px !important;
+  max-height: 500px;
+  overflow-y: auto;
+    /* prevent horizontal scrollbar */
+  overflow-x: hidden;
+  position: absolute;
+  right: 0px;
 
   .ui-menu-item {
     white-space: normal;

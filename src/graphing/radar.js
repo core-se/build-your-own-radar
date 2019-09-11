@@ -493,11 +493,41 @@ const Radar = function (size, radar) {
       source: _.flatten(_.map(quadrants, function (q, i) {
         return _.map(q.quadrant.blips(), function (b) {
           const name = b.name()
-          return { label: name, value: name, blip: b, quadrant: q }
+          const desc = b.description()
+          return { label_short: name, label: name + " - " + desc, value: name, blip: b, quadrant: q }
         })
       })),
       select: searchBlip.bind({})
-    })
+    })/*.autocomplete( "option", "minLength", 0 )*/
+    .autocomplete( "option", "position", { my : "right top", at: "right bottom" } )
+    .autocomplete( "instance" )._renderItem = function( ul, item ) {
+      const searchVal = $("input#auto-complete").val();
+      var source = item.label_short + " - ";
+      var sourceLength = source.length;
+      var label = item.label.substring(sourceLength);
+      const pos = label.toLowerCase().indexOf(searchVal.toLowerCase());
+      var span = 50;
+      var start = 0;
+      var end = span;
+      var prefix = "";
+      var suffix = "... "
+      if (pos>span) {
+        start = parseInt(pos) - parseInt(span); 
+        prefix = " ...";
+      }
+      if (pos>0) {
+        end = parseInt(pos) + parseInt(span);
+      }      
+      if (end>item.label.length) {
+        end = item.label.length;
+        suffix = "";
+      }
+      const desc = prefix+label.substring(start,end)+suffix;
+      return $( "<li>" )
+        .append( "<div>" + item.label_short + "<br/>" + desc +"</div>" )
+        .appendTo( ul );
+    }
+    
   }
 
   function plotRadarFooter () {
