@@ -37,7 +37,7 @@ Eventstore,trial,infrastructure,FALSE,"Storage of data as a series of immutable 
 Fastlane,adopt,frameworks and tools,FALSE,
 Firebase Analytics,adopt,frameworks and tools,FALSE,Analysis of app usage and user behavior in the app based on standard and custom events<br/><b>Project: </b>Ambidexter<br/><b>Contact person: </b>Philipp Gampe
 Flink,trial,infrastructure,FALSE,
-Flyway,open,infrastructure,FALSE,Database migration / versioning tool
+Flyway,trial,infrastructure,FALSE,Database migration / versioning tool
 Gatlin,adopt,frameworks and tools,FALSE,<br/><b>Project: </b>E2E
 Gherkin,adopt,languages,FALSE,Programming language used to describe test cases for the Cucumber programming tool<br/><b>Project: </b>Ambidexter<br/><b>Contact person: </b>Nadine
 Gitlab,adopt,infrastructure,FALSE,"Web-based DevOps lifecycle tool that provides a Git-repository manager providing wiki, issue-tracking and CI/CD pipeline features<br/><b>Area of Usage: </b>Git Repository<br/><b>Rationale behind assessment: </b>Very positive project experience
@@ -54,10 +54,10 @@ Gradle,adopt,frameworks and tools,FALSE,"<br/><b>Project: </b>Ambidexter, E2E<br
 Hadoop,assess,data management,FALSE,
 Hazelcut,assess,data management,FALSE,
 Helmchart,trial,frameworks and tools,FALSE,
-Helmet,open,frameworks and tools,FALSE,HTTP(s) security extension library for Express framework
+Helmet,trial,frameworks and tools,FALSE,HTTP(s) security extension library for Express framework
 HTML,hold,languages,FALSE,Standard markup language for creating Web pages<br/><b>Project: </b>Ambidexter<br/><b>Contact person: </b>Nadine
 Hydra,trial,data management,FALSE,
-Instabug,open,frameworks and tools,FALSE,Tool for easy communication between users and providers; primarily used for bug reporting during beta test phase<br/><b>Project: </b>Ambidexter<br/><b>Contact person: </b>Philipp Gampe
+Instabug,trial,frameworks and tools,FALSE,Tool for easy communication between users and providers; primarily used for bug reporting during beta test phase<br/><b>Project: </b>Ambidexter<br/><b>Contact person: </b>Philipp Gampe
 Istio,trial,frameworks and tools,FALSE,"Service Mesh (Routing, Tracing), Service Security (mTLS, Auth)<br/><b>Area of Usage: </b>Networking<br/><b>CIA Relevance: </b>Confidentiality<br/><b>Project: </b>Ambidexter, E2E<br/><b>Contact person: </b>Philipp Gampe<br/><b>Knowledge level: </b>1<br/><b>Vendors: </b>Senacor<br/><b>Combinable tools/technologies: </b>KeyCloak"
 Jäger,adopt,frameworks and tools,FALSE,
 Java,adopt,languages,FALSE,"Java programming language<br/><b>Project: </b>Ambidexter, E2E<br/><b>Contact person: </b>Nadine"
@@ -84,13 +84,13 @@ Nimble,adopt,frameworks and tools,FALSE,
 Node.js,adopt,languages,FALSE,"JavaScript runtime engine<br/><b>Project: </b>Ambidexter, E2E<br/><b>Contact person: </b>Nadine"
 Nuts,assess,infrastructure,FALSE,
 OkHttp,adopt,frameworks and tools,FALSE,OkHttp is an efficient HTTP & HTTP/2 client for Android and Java applications.<br/><b>Area of Usage: </b>HTTP Client<br/><b>Rationale behind assessment: </b>tbd<br/><b>CIA Relevance: </b>Confidentiality<br/><b>Project: </b>Ambidexter<br/><b>Contact person: </b>Marco<br/><b>Knowledge level: </b>0.5<br/><b>Vendors: </b>tbd
-Polyglot,open,frameworks and tools,FALSE,Localization and translation library
+Polyglot,trial,frameworks and tools,FALSE,Localization and translation library
 Postgres,adopt,data management,FALSE,"<br/><b>Project: </b>Ambidexter, E2E, , Verimi, Deutsche Börse<br/><b>Contact person: </b>Philipp Gampe, Maarten Oestreich, Kartik Shankar Kumar, Szymon Stryczek, Oliver Jung"
 Postman,adopt,frameworks and tools,FALSE,"<br/><b>Project: </b>Ambidexter, E2E<br/><b>Contact person: </b>Philipp Gampe"
 Prometheus (ELK/EFG/EFK),adopt,infrastructure,FALSE,Multidimensional datamodell (platform) for monitoring and alerting of infrastructure components<br/><b>Project: </b>Ambidexter
 Quick,adopt,frameworks and tools,FALSE,
 RabbitMQ,trial,infrastructure,FALSE,Fast and reliable messaging platform<br/><b>Project: </b>E2E
-Radis,open,infrastructure,FALSE,
+Radis,trial,infrastructure,FALSE,
 React,adopt,languages,FALSE," - React is a JavaScript library for building user interfaces
 - It is used to build single page applications
 - It allows us to create reusable UI components<br/><b>Area of Usage: </b>JavaScript library for building user interfaces<br/><b>Rationale behind assessment: </b> - Facilitation of overall process of writing components
@@ -103,7 +103,7 @@ Retrofit,adopt,frameworks and tools,FALSE,
 RxJava#,adopt,frameworks and tools,FALSE,
 Selenium,adopt,frameworks and tools,FALSE,"Web browser automation framework<br/><b>Project: </b>Ambidexter, E2E"
 Snapkit,adopt,frameworks and tools,FALSE,
-Snyk,open,frameworks and tools,FALSE,
+Snyk,trial,frameworks and tools,FALSE,
 SOAP,hold,frameworks and tools,FALSE,<br/><b>Project: </b>Ambidexter<br/><b>Contact person: </b>Philipp Gampe
 SonarQube,adopt,frameworks and tools,FALSE,"Code coverage (toolchain backend) and Vulnerability Analysis Code    <br/><b>Project: </b>Ambidexter, Deutsche Börse, E2E, Verimi<br/><b>Contact person: </b>Philipp Gampe, Maarten Oestreich, Kartik Shankar Kumar, Szymon Stryczek, Oliver Jung"
 Spark,trial,infrastructure,FALSE,
