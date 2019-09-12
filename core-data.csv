@@ -1,12 +1,130 @@
 name,ring,quadrant,isNew,description
 Alamofire,adopt,frameworks and tools,FALSE,
-Ambassador,trial,infrastructure,FALSE,"Kubernetes-Native API Gateway built on the Envoy Proxy<br/><b>Area of Usage: </b>API Gateway<br/><b>Rationale behind assessment: </b>Good results (performance, reliability)  so far but needs to be assessed over a longer period of time <br/><b>Project: </b>Ambidexter, E2E<br/><b>Contact person: </b>Marco<br/><b>Knowledge level: </b>0.5<br/><b>Vendors: </b>Senacor"
-Anchore,assess,infrastructure,FALSE,"Anchore provides a centralized service for inspection, analysis and certification of container images.<br/><b>Area of Usage: </b>Secure Container Deployment<br/><b>Rationale behind assessment: </b>tbd<br/><b>Project: </b>Ambidexter, E2E<br/><b>Contact person: </b>Marco<br/><b>Knowledge level: </b>0.5<br/><b>Vendors: </b>SSE"
+Ambassador,trial,infrastructure,FALSE,"Kubernetes-Native API Gateway built on the Envoy Proxy<br/><b>Area of Usage: </b>API Gateway<br/><b>Rationale behind assessment: </b>Good results (performance, reliability)  so far but needs to be assessed over a longer period of time <br/><b>CIA Relevance: </b>Confidentiality
+Availability<br/><b>Project: </b>Ambidexter, E2E<br/><b>Contact person: </b>Marco<br/><b>Knowledge level: </b>0.5<br/><b>Vendors: </b>Senacor<br/><b>Combinable tools/technologies: </b>Istio
+Eventstore"
+Anchore,assess,infrastructure,FALSE,"Anchore provides a centralized service for inspection, analysis and certification of container images.<br/><b>Area of Usage: </b>Secure Container Deployment<br/><b>Rationale behind assessment: </b>tbd<br/><b>CIA Relevance: </b>Confidentiality
+Integrity<br/><b>Project: </b>Ambidexter, E2E<br/><b>Contact person: </b>Marco<br/><b>Knowledge level: </b>0.5<br/><b>Vendors: </b>SSE<br/><b>Combinable tools/technologies: </b>Kexycloak
+Java MS
+Node MS"
 Angular,hold,languages,FALSE,<br/><b>Project: </b>E2E
 ANS/GCP,trial,infrastructure,FALSE,
-Ansible,assess,infrastructure,FALSE,"Software provisioning, configuration management, and application-deployment too<br/><b>Area of Usage: </b>Configuration-management software<br/><b>Rationale behind assessment: </b>tbd<br/><b>Project: </b>Ambidexter, E2E<br/><b>Contact person: </b>Marco<br/><b>Knowledge level: </b>0<br/><b>Vendors: </b>Coder Society ?"
-Artifactory,adopt,infrastructure,FALSE,"Binaries Repository that allows the integration of further repos, making Artifactory the single point of contact regarding repos<br/><b>Area of Usage: </b>Software Repository<br/><b>Rationale behind assessment: </b>Very positive project experience<br/><b>Project: </b>Ambidexter, E2E<br/><b>Contact person: </b>Marco<br/><b>Knowledge level: </b>1<br/><b>Vendors: </b>Senacor"
-Azure,adopt,infrastructure,FALSE,"Azure provides software as a service (SaaS), platform as a service (PaaS) and infrastructure as a service (IaaS) and supports many different programming languages, tools and frameworks, including both Microsoft-specific and third-party software and systems<br/><b>Area of Usage: </b>Cloud computing service<br/><b>Rationale behind assessment: </b>Very positive project experience<br/><b>Project: </b>Ambidexter<br/><b>Contact person: </b>Marco<br/><b>Knowledge level: </b>1<br/><b>Vendors: </b>CORE"
-Bitrise,trial,infrastructure,FALSE,"After connecting your repository, Bitrise scans and configures your project for any mobile platform, be it native or hybrid, so you can start shipping your app immediately<br/><b>Area of Usage: </b>Deployment of mobile apps<br/><b>Rationale behind assessment: </b>Good results (performance, reliability)  so far but needs to be assessed over a longer period of time <br/><b>Project: </b>Ambidexter<br/><b>Contact person: </b>Marco<br/><b>Knowledge level: </b>0<br/><b>Vendors: </b>Freelancers"
-Bitbucket,hold,infrastructure,FALSE,"Bitbucket is a web-based version control repository hosting service for source code and development projects that use Git revision control systems<br/><b>Area of Usage: </b>Git version control repository<br/><b>Rationale behind assessment: </b>tbd<br/><b>Project: </b>Ambidexter, E2E<br/><b>Contact person: </b>Marco<br/><b>Knowledge level: </b>0<br/><b>Vendors: </b>tbd"
+Ansible,assess,infrastructure,FALSE,"Software provisioning, configuration management, and application-deployment too<br/><b>Area of Usage: </b>Configuration-management software<br/><b>Rationale behind assessment: </b>tbd<br/><b>CIA Relevance: </b>Integrity
+Availability<br/><b>Project: </b>Ambidexter, E2E<br/><b>Contact person: </b>Marco<br/><b>Knowledge level: </b>0<br/><b>Vendors: </b>Coder Society ?"
+Artifactory,adopt,infrastructure,FALSE,"Binaries Repository that allows the integration of further repos, making Artifactory the single point of contact regarding repos<br/><b>Area of Usage: </b>Software Repository<br/><b>Rationale behind assessment: </b>Very positive project experience<br/><b>CIA Relevance: </b>Integrity
+Availability<br/><b>Project: </b>Ambidexter, E2E<br/><b>Contact person: </b>Marco<br/><b>Knowledge level: </b>1<br/><b>Vendors: </b>Senacor<br/><b>Combinable tools/technologies: </b>AKS"
+Azure,adopt,infrastructure,FALSE,"Azure provides software as a service (SaaS), platform as a service (PaaS) and infrastructure as a service (IaaS) and supports many different programming languages, tools and frameworks, including both Microsoft-specific and third-party software and systems<br/><b>Area of Usage: </b>Cloud computing service<br/><b>Rationale behind assessment: </b>Very positive project experience<br/><b>CIA Relevance: </b>Confidentiality
+Integrity
+Availability<br/><b>Project: </b>Ambidexter<br/><b>Contact person: </b>Marco<br/><b>Knowledge level: </b>1<br/><b>Vendors: </b>CORE<br/><b>Combinable tools/technologies: </b>SQL
+Kubernetes (K8s)
+REST
+Node.js
+Python
+Linux OS
+etc"
+Bitrise,trial,infrastructure,FALSE,"After connecting your repository, Bitrise scans and configures your project for any mobile platform, be it native or hybrid, so you can start shipping your app immediately<br/><b>Area of Usage: </b>Deployment of mobile apps<br/><b>Rationale behind assessment: </b>Good results (performance, reliability)  so far but needs to be assessed over a longer period of time <br/><b>CIA Relevance: </b>Integrity
+Availability<br/><b>Project: </b>Ambidexter<br/><b>Contact person: </b>Marco<br/><b>Knowledge level: </b>0<br/><b>Vendors: </b>Freelancers"
+Bitbucket,hold,infrastructure,FALSE,"Bitbucket is a web-based version control repository hosting service for source code and development projects that use Git revision control systems<br/><b>Area of Usage: </b>Git version control repository<br/><b>Rationale behind assessment: </b>tbd<br/><b>CIA Relevance: </b>Integrity<br/><b>Project: </b>Ambidexter, E2E<br/><b>Contact person: </b>Marco<br/><b>Knowledge level: </b>0<br/><b>Vendors: </b>tbd"
 Cassandra,assess,data management,FALSE,
+C-languages,assess,languages,FALSE,
+CockroachDB,trial,data management,FALSE,
+cocoapods-art,adopt,frameworks and tools,FALSE,
+cypress.io,assess,frameworks and tools,FALSE,
+Dagger,adopt,frameworks and tools,FALSE,
+Docker,adopt,infrastructure,FALSE,"Free Software to isolate application with container visualisation<br/><b>Project: </b>Ambidexter, E2E, Verimi, Deutsche Börse<br/><b>Contact person: </b>Maarten Oestreich, Kartik Shankar Kumar, Szymon Stryczek, Oliver Jung"
+Dynatrace,adopt,infrastructure,FALSE,
+Eventstore,trial,infrastructure,FALSE,"Storage of data as a series of immutable events over time, making it easy to build event-sourced applications<br/><b>Area of Usage: </b>Database optimized for storage of events<br/><b>Rationale behind assessment: </b>Good results (performance, reliability)  so far but needs to be assessed over a longer period of time <br/><b>CIA Relevance: </b>Availability<br/><b>Project: </b>Ambidexter, E2E<br/><b>Contact person: </b>Marco<br/><b>Knowledge level: </b>0.5<br/><b>Vendors: </b>Senacor"
+Fastlane,adopt,frameworks and tools,FALSE,
+Firebase Analytics,adopt,frameworks and tools,FALSE,Analysis of app usage and user behavior in the app based on standard and custom events<br/><b>Project: </b>Ambidexter<br/><b>Contact person: </b>Philipp Gampe
+Flink,trial,infrastructure,FALSE,
+Flyway,open,infrastructure,FALSE,Database migration / versioning tool
+Gatlin,adopt,frameworks and tools,FALSE,<br/><b>Project: </b>E2E
+Gherkin,adopt,languages,FALSE,Programming language used to describe test cases for the Cucumber programming tool<br/><b>Project: </b>Ambidexter<br/><b>Contact person: </b>Nadine
+Gitlab,adopt,infrastructure,FALSE,"Web-based DevOps lifecycle tool that provides a Git-repository manager providing wiki, issue-tracking and CI/CD pipeline features<br/><b>Area of Usage: </b>Git Repository<br/><b>Rationale behind assessment: </b>Very positive project experience
+De-facto industry standard Git-Repository<br/><b>CIA Relevance: </b>Confidentiality
+Integrity
+Availability<br/><b>Project: </b>Ambidexter<br/><b>Contact person: </b>Marco<br/><b>Knowledge level: </b>1<br/><b>Vendors: </b>Senacor
+<br/><b>Combinable tools/technologies: </b>AKS"
+GitLab - CI/CD,trial,infrastructure,FALSE,"Web-based continuous integration tool for developers to build, test, deploy and monitor code<br/><b>Area of Usage: </b>Software Deployment<br/><b>Rationale behind assessment: </b>This feature has so far not been leveraged as far as it have could been leveraged<br/><b>CIA Relevance: </b>Confidentiality
+Integrity
+Availability<br/><b>Project: </b>Ambidexter<br/><b>Contact person: </b>Marco<br/><b>Knowledge level: </b>1<br/><b>Vendors: </b>Senacor"
+Glide,adopt,frameworks and tools,FALSE,
+Golang,trial,languages,FALSE,"Open source programming language<br/><b>Project: </b>Ambidexter, E2E, Deutsche Börse<br/><b>Contact person: </b>Oliver Jung"
+Gradle,adopt,frameworks and tools,FALSE,"<br/><b>Project: </b>Ambidexter, E2E<br/><b>Contact person: </b>Philipp Gampe"
+Hadoop,assess,data management,FALSE,
+Hazelcut,assess,data management,FALSE,
+Helmchart,trial,frameworks and tools,FALSE,
+Helmet,open,frameworks and tools,FALSE,HTTP(s) security extension library for Express framework
+HTML,hold,languages,FALSE,Standard markup language for creating Web pages<br/><b>Project: </b>Ambidexter<br/><b>Contact person: </b>Nadine
+Hydra,trial,data management,FALSE,
+Instabug,open,frameworks and tools,FALSE,Tool for easy communication between users and providers; primarily used for bug reporting during beta test phase<br/><b>Project: </b>Ambidexter<br/><b>Contact person: </b>Philipp Gampe
+Istio,trial,frameworks and tools,FALSE,"Service Mesh (Routing, Tracing), Service Security (mTLS, Auth)<br/><b>Area of Usage: </b>Networking<br/><b>CIA Relevance: </b>Confidentiality<br/><b>Project: </b>Ambidexter, E2E<br/><b>Contact person: </b>Philipp Gampe<br/><b>Knowledge level: </b>1<br/><b>Vendors: </b>Senacor<br/><b>Combinable tools/technologies: </b>KeyCloak"
+Jäger,adopt,frameworks and tools,FALSE,
+Java,adopt,languages,FALSE,"Java programming language<br/><b>Project: </b>Ambidexter, E2E<br/><b>Contact person: </b>Nadine"
+Jenkins,adopt,infrastructure,FALSE,<br/><b>Project: </b>E2E
+Junit,adopt,frameworks and tools,FALSE,"<br/><b>Project: </b>Ambidexter, E2E<br/><b>Contact person: </b>Philipp Gampe"
+Kafdrop,trial,frameworks and tools,FALSE,
+Kafka,trial,infrastructure,FALSE,"Apache Kafka is a distributed streaming platform used for two broad classes of applications:
+
+ - Building real-time streaming data pipelines that reliably get data between systems or applications
+
+ - Building real-time streaming applications that transform or react to the streams of data<br/><b>Area of Usage: </b>massively scalable pub/sub message queue designed as a distributed transaction log<br/><b>Rationale behind assessment: </b>market standard for digital platforms, focusing of significant scalability<br/><b>Project: </b>Verimi, Deutsche Börse<br/><b>Contact person: </b>Maarten Oestreich, Kartik Shankar Kumar, Szymon Stryczek, Oliver Jung<br/><b>Vendors: </b>EPAM<br/><b>Combinable tools/technologies: </b>Apache Kafka also works with external stream processing systems such as Apache Apex, Apache Flink, Apache Spark, and Apache Storm"
+Keycloak,adopt,data management,FALSE,Identity and Access Management<br/><b>Project: </b>Ambidexter<br/><b>Contact person: </b>Philipp Gampe<br/><b>Knowledge level: </b>1<br/><b>Vendors: </b>Senacor
+Kotlin (Android),adopt,languages,FALSE,"Programming language for the JVM and Android<br/><b>Project: </b>Ambidexter, E2E<br/><b>Contact person: </b>Nadine"
+Kubernetes,adopt,infrastructure,FALSE,"Container orchestration system for automating application deployment, scaling, and management.<br/><b>Project: </b>Ambidexter, Verimi, Deutsche Börse<br/><b>Contact person: </b>Maarten Oestreich, Kartik Shankar Kumar, Szymon Stryczek, Oliver Jung"
+Maven,adopt,frameworks and tools,FALSE,
+MongoDB,trial,data management,FALSE,"MongoDB is a general purpose, document-based, distributed database<br/><b>Project: </b>Ambidexter, E2E<br/><b>Contact person: </b>Nadine"
+Mountebank,trial,frameworks and tools,FALSE,"Tool to provide cross-platform, multi-protocol test doubles over the wire<br/><b>Project: </b>Ambidexter<br/><b>Contact person: </b>Philipp Gampe"
+MSQL,adopt,data management,FALSE,Mini SQL is a lightweight database management system<br/><b>Project: </b>Ambidexter<br/><b>Contact person: </b>Nadine
+Neo4j,adopt,data management,FALSE,
+Ngnix,adopt,infrastructure,FALSE,"Nginx is a HTTP and reverse proxy server, a mail proxy server, and a generic TCP/UDP proxy server<br/><b>Area of Usage: </b>Web Server
+Reverse Proxy
+Load Balancing<br/><b>Rationale behind assessment: </b>Positive project experience<br/><b>CIA Relevance: </b>Availability<br/><b>Project: </b>Ambidexter, E2E<br/><b>Contact person: </b>Marco<br/><b>Knowledge level: </b>0.5<br/><b>Vendors: </b>Senacor"
+Nimble,adopt,frameworks and tools,FALSE,
+Node.js,adopt,languages,FALSE,"JavaScript runtime engine<br/><b>Project: </b>Ambidexter, E2E<br/><b>Contact person: </b>Nadine"
+Nuts,assess,infrastructure,FALSE,
+OkHttp,adopt,frameworks and tools,FALSE,OkHttp is an efficient HTTP & HTTP/2 client for Android and Java applications.<br/><b>Area of Usage: </b>HTTP Client<br/><b>Rationale behind assessment: </b>tbd<br/><b>CIA Relevance: </b>Confidentiality<br/><b>Project: </b>Ambidexter<br/><b>Contact person: </b>Marco<br/><b>Knowledge level: </b>0.5<br/><b>Vendors: </b>tbd
+Polyglot,open,frameworks and tools,FALSE,Localization and translation library
+Postgres,adopt,data management,FALSE,"<br/><b>Project: </b>Ambidexter, E2E, , Verimi, Deutsche Börse<br/><b>Contact person: </b>Philipp Gampe, Maarten Oestreich, Kartik Shankar Kumar, Szymon Stryczek, Oliver Jung"
+Postman,adopt,frameworks and tools,FALSE,"<br/><b>Project: </b>Ambidexter, E2E<br/><b>Contact person: </b>Philipp Gampe"
+Prometheus (ELK/EFG/EFK),adopt,infrastructure,FALSE,Multidimensional datamodell (platform) for monitoring and alerting of infrastructure components<br/><b>Project: </b>Ambidexter
+Quick,adopt,frameworks and tools,FALSE,
+RabbitMQ,trial,infrastructure,FALSE,Fast and reliable messaging platform<br/><b>Project: </b>E2E
+Radis,open,infrastructure,FALSE,
+React,adopt,languages,FALSE," - React is a JavaScript library for building user interfaces
+- It is used to build single page applications
+- It allows us to create reusable UI components<br/><b>Area of Usage: </b>JavaScript library for building user interfaces<br/><b>Rationale behind assessment: </b> - Facilitation of overall process of writing components
+ - Re-use of code components
+- Faster rendering for  heavy loaded and dynamic software solutions by utilizing virtual DOM
+ - React native for mobile apps -  web and mobile application development it follows the same design patterns, facilitating the transition process<br/><b>Project: </b>Deutsche Börse, E2E, Verimi<br/><b>Contact person: </b>Maarten Oestreich, Kartik Shankar Kumar, Szymon Stryczek, Oliver Jung<br/><b>Vendors: </b>EPAM"
+Redis,adopt,data management,FALSE,In-memory databank for caches and read models<br/><b>Project: </b>Ambidexter<br/><b>Contact person: </b>Nadine
+Rest,adopt,frameworks and tools,FALSE,Software architecture style for web services<br/><b>Rationale behind assessment: </b> <br/><b>Project: </b>Ambidexter<br/><b>Contact person: </b>Philipp Gampe
+Retrofit,adopt,frameworks and tools,FALSE,
+RxJava#,adopt,frameworks and tools,FALSE,
+Selenium,adopt,frameworks and tools,FALSE,"Web browser automation framework<br/><b>Project: </b>Ambidexter, E2E"
+Snapkit,adopt,frameworks and tools,FALSE,
+Snyk,open,frameworks and tools,FALSE,
+SOAP,hold,frameworks and tools,FALSE,<br/><b>Project: </b>Ambidexter<br/><b>Contact person: </b>Philipp Gampe
+SonarQube,adopt,frameworks and tools,FALSE,"Code coverage (toolchain backend) and Vulnerability Analysis Code    <br/><b>Project: </b>Ambidexter, Deutsche Börse, E2E, Verimi<br/><b>Contact person: </b>Philipp Gampe, Maarten Oestreich, Kartik Shankar Kumar, Szymon Stryczek, Oliver Jung"
+Spark,trial,infrastructure,FALSE,
+Spinnaker,assess,infrastructure,FALSE,
+Splunk (ad-hoc),adopt,infrastructure,FALSE,<br/><b>Project: </b>E2E
+Spotbugs,assess,frameworks and tools,FALSE,
+Spring,adopt,frameworks and tools,FALSE,
+Swift (iOS),adopt,languages,FALSE,"Programming language for for macOS, iOS, watchOS, tvOS and Linux<br/><b>Project: </b>Ambidexter<br/><b>Contact person: </b>Nadine"
+Terraform,assess,infrastructure,FALSE,"Kubernetes package manager<br/><b>Area of Usage: </b>Infrastructure as code<br/><b>Rationale behind assessment: </b>Needs to be heavily customized/adapted in order to fulfill project needs<br/><b>CIA Relevance: </b>Integrity
+Availability<br/><b>Project: </b>Ambidexter, E2E<br/><b>Contact person: </b>Marco<br/><b>Knowledge level: </b>0<br/><b>Vendors: </b>TomCode"
+Testrail,adopt,frameworks and tools,FALSE,
+Thanos (prometheus),assess,infrastructure,FALSE,
+Timber,adopt,frameworks and tools,FALSE,
+Twistlock,assess,frameworks and tools,FALSE,<br/><b>Project: </b>E2E
+Typescript,trial,languages,FALSE,"Strong tped language on top of JavaScript<br/><b>Project: </b>E2E, Kapsch"
+Vault,trial,infrastructure,FALSE,
+Xcode,adopt,frameworks and tools,FALSE,
+X-ray,trial,frameworks and tools,FALSE,"Code analysis tool for developers to check vulnerability in code<br/><b>Project: </b>Ambidexter, E2E<br/><b>Contact person: </b>Philipp Gampe"
+Yarn,adopt,frameworks and tools,FALSE,Build manager for JavaScript / TypeScript
+Zipkin,adopt,frameworks and tools,FALSE,
+Zuul,adopt,frameworks and tools,FALSE,
+Portworx,hold,frameworks and tools,FALSE,"Tool for encryption of data-at-rest and data-in-flight (part of the CISO security requirement)<br/><b>Area of Usage: </b>Data at rest encryption<br/><b>Rationale behind assessment: </b>Security issues within version .For details see Column ""Security Implications""<br/><b>CIA Relevance: </b>Confidentiality<br/><b>Project: </b>Ambidexter<br/><b>Contact person: </b>Philipp Gampe<br/><b>Knowledge level: </b>0.5"
+Rook,assess,frameworks and tools,FALSE,<br/><b>Area of Usage: </b>Storage Orchestrator & Data at rest encryption<br/><b>Rationale behind assessment: </b>Uses dm-crypt <br/><b>CIA Relevance: </b>Confidentiality<br/><b>Project: </b>Ambidexter<br/><b>Contact person: </b>Philipp Gampe<br/><b>Knowledge level: </b>1<br/><b>Vendors: </b>Coder Society<br/><b>Combinable tools/technologies: </b>AKS
+GitHub,adopt,frameworks and tools,FALSE,Code repository<br/><b>Project: </b>Ambidexter<br/><b>Contact person: </b>Nadine
